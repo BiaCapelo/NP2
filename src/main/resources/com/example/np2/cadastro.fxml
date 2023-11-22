@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21ff974a" height="274.0" layoutX="35.0" layoutY="38.0" stroke="BLACK" strokeType="INSIDE" width="271.0" />
+      <Button layoutX="134.0" layoutY="328.0" mnemonicParsing="false" style="-fx-border-radius: 0; -fx-border-color: black; -fx-background-color: #00dbb3; -fx-background-radius: 0;" text="Cadastrar" />
+      <Label layoutX="81.0" layoutY="53.0" text="Cadastro do Aluno">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Label>
+      <TextField layoutX="44.0" layoutY="113.0" prefHeight="25.0" prefWidth="253.0" promptText="Nome" />
+      <TextField layoutX="44.0" layoutY="155.0" prefHeight="25.0" prefWidth="253.0" promptText="CPF" />
+      <TextField layoutX="44.0" layoutY="200.0" prefHeight="25.0" prefWidth="253.0" promptText="Altura" />
+      <TextField layoutX="44.0" layoutY="244.0" prefHeight="25.0" prefWidth="253.0" promptText="Peso" />
+      <Button layoutY="330.0" mnemonicParsing="false" style="-fx-background-color: #00dbb3; -fx-border-color: #000000; -fx-border-radius: 0;" text="Consultar" AnchorPane.rightAnchor="264.3333333333333">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
