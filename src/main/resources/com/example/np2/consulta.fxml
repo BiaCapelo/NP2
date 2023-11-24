@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.np2.Consulta"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21ff9432" height="356.0" layoutX="20.0" layoutY="22.0" stroke="BLACK" strokeType="INSIDE" width="294.0" />
+      <TextField layoutX="37.0" layoutY="46.0" prefHeight="25.0" prefWidth="197.0" promptText="CPF" />
+      <Button fx:id="btn_procurar" layoutX="240.0" layoutY="46.0" mnemonicParsing="false" style="-fx-background-color: #00dbb3; -fx-border-color: black; -fx-background-radius: 0; -fx-border-radius: 0;" text="Procurar" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_excluir" layoutX="247.0" layoutY="331.0" mnemonicParsing="false" style="-fx-background-color: #00dbb3; -fx-border-color: black; -fx-background-radius: 0; -fx-border-radius: 0;" text="Excluir" />
+      <Button fx:id="btn_atualizar" layoutX="241.0" layoutY="289.0" mnemonicParsing="false" style="-fx-background-color: #00dbb3; -fx-border-color: black; -fx-background-radius: 0; -fx-border-radius: 0;" text="Atualizar">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Button>
+      <ScrollPane layoutX="37.0" layoutY="89.0" prefHeight="271.0" prefWidth="200.0">
+         <content>
+            <VBox prefWidth="400.0" />
+         </content>
+      </ScrollPane>
+   </children>
 </AnchorPane>

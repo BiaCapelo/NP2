@@ -5,20 +5,23 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.np2.CadastroController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21ff974a" height="274.0" layoutX="35.0" layoutY="38.0" stroke="BLACK" strokeType="INSIDE" width="271.0" />
-      <Button layoutX="134.0" layoutY="328.0" mnemonicParsing="false" style="-fx-border-radius: 0; -fx-border-color: black; -fx-background-color: #00dbb3; -fx-background-radius: 0;" text="Cadastrar" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21ff9433" height="274.0" layoutX="35.0" layoutY="38.0" stroke="BLACK" strokeType="INSIDE" width="271.0" />
+      <Button fx:id="btn_cadastrar" layoutX="63.0" layoutY="328.0" mnemonicParsing="false" onAction="#setCadastrar" style="-fx-border-radius: 0; -fx-border-color: black; -fx-background-color: #00dbb3; -fx-background-radius: 0;" text="Cadastrar" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font></Button>
       <Label layoutX="81.0" layoutY="53.0" text="Cadastro do Aluno">
          <font>
             <Font name="Arial Black" size="17.0" />
          </font>
       </Label>
-      <TextField layoutX="44.0" layoutY="113.0" prefHeight="25.0" prefWidth="253.0" promptText="Nome" />
-      <TextField layoutX="44.0" layoutY="155.0" prefHeight="25.0" prefWidth="253.0" promptText="CPF" />
-      <TextField layoutX="44.0" layoutY="200.0" prefHeight="25.0" prefWidth="253.0" promptText="Altura" />
-      <TextField layoutX="44.0" layoutY="244.0" prefHeight="25.0" prefWidth="253.0" promptText="Peso" />
-      <Button layoutY="330.0" mnemonicParsing="false" style="-fx-background-color: #00dbb3; -fx-border-color: #000000; -fx-border-radius: 0;" text="Consultar" AnchorPane.rightAnchor="264.3333333333333">
+      <TextField fx:id="nome" layoutX="44.0" layoutY="113.0" prefHeight="25.0" prefWidth="253.0" promptText="Nome" />
+      <TextField fx:id="cpf" layoutX="44.0" layoutY="155.0" prefHeight="25.0" prefWidth="253.0" promptText="CPF" />
+      <TextField fx:id="altura" layoutX="44.0" layoutY="200.0" prefHeight="25.0" prefWidth="253.0" promptText="Altura" />
+      <TextField fx:id="peso" layoutX="44.0" layoutY="244.0" prefHeight="25.0" prefWidth="253.0" promptText="Peso" />
+      <Button fx:id="btn_consultar" layoutX="217.0" layoutY="329.0" mnemonicParsing="false" style="-fx-background-color: #00dbb3; -fx-border-color: #000000; -fx-border-radius: 0;" text="Consultar" textAlignment="CENTER" AnchorPane.rightAnchor="47.333333333333314">
          <font>
             <Font name="Arial" size="12.0" />
          </font></Button>
